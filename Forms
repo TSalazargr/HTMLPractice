@@ -1,0 +1,13 @@
+<form>
+    <label for="t1">Email</label>
+    <input id="t1" type="text" name="email"><br>
+    <label for="t2">City</label>
+    <input id="t2" type="text" name="city"><br>
+    <input type="submit">
+</form>
+<!-- ⭐ The submit type of input allows the user to send form data
+
+⭐ The name attribute is used to tell the database where to store the data
+
+⭐ The value attribute is used to tell the database what to store
+-->
