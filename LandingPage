@@ -3,5 +3,8 @@
 <title>Landing Page</title>
 </head>
 <body>
+    <nav>
+        <a href="test.html">Test</a>
+    </nav>
 </body>
 </html>
