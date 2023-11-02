@@ -1,4 +1,4 @@
-<h1>Drop Down Menus>
+<h1>Drop Down Menus</h1>
 <h2>Basic menu</h2>
 <form>
     <select name="breakfast">
@@ -8,14 +8,15 @@
     </select>
 </form>
 <h2>Menu with a default option</h2>
-<!--The selected attribute creates a drop-down menu with a pre-selected option. The pre-selected option will be displayed first.-->
+<!--The selected attribute creates a drop-down menu with a pre-selected option. The pre-selected option will be displayed first-->
 <form>
     <select name="color">
          <option value="r">Red</option>
          <option value="g">Green</option>
          <option value="b" selected>Blue</option>
     </select>
-</form>
+    <input type="submit>
+</form><br>
 <h2>Menu with Labels</h2>
 <form>
     <label for="meal" name="meal">What's your favorite meal?</label>
@@ -24,4 +25,5 @@
         <option value="meatb">Meatballs</option>
         <option value="other">Other</option>
     </select>
+    <input type="submit>
 </form>
