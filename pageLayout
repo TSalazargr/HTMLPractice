@@ -1,0 +1,31 @@
+<html>
+<head>
+  <title>Page Layout</title>
+</head>
+<body>
+  <header>
+    <h1>Teresa's website</h1>
+    <a id="topOfPage"></a>
+    <img src="https://pbs.twimg.com/profile_images/1587851563711795202/Q37gWUU4_400x400.jpg" width="100">
+    <nav>
+      <a href="https://github.com/TSalazargr">Github</a> 
+      <a href="https://twitter.com/tsalazargr">Twitter</a> 
+      <a href="https://www.linkedin.com/in/seleccionit/">LinkedIn</a>
+    </nav>
+  </header>
+  <main>
+    <article>
+    </article>
+    <section>
+      <h2>Section tag</h2>
+      <p><section> is a semantic tag. It usually includes a heading.</p>
+    </section>
+    <aside>
+       <p>The <em>aside</em> HTML element represents a portion of a document whose content is only indirectly related to the document's main content.</p>
+     <aside>
+  </main>
+  <footer>
+    <a href="#topOfPage">Go back to the Top of the Page</a>
+  </footer>
+</body>
+</html>
