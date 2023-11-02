@@ -1,0 +1,27 @@
+<!--When different <source> options are included, the browser will choose the first one it supports.-->
+<!--You can display play/pause, volume and other video controls with the controls attribute.-->
+<video controls>
+  <source src="file.mp4" type="video/mp4">
+  <source src="file.webm" type="video/webm">
+<!--You can add text between the <video> tags. The text will only be displayed in browsers that don’t support the video element.-->   
+  Video not supported
+</video><br>
+<p><strong>Controls:</strong> Shows media controls</p>
+<p><strong>Muted</strong></p>
+<p><strong>Autoplay</strong></p>
+<p><strong>Loop</strong></p>
+<video autoplay muted>
+  <source src="videofile.mp4"
+    type="video/mp4">
+  <source src="videofile.ogg"
+    type="video/ogg">
+</video>
+<audio controls>
+  <source src="audiofile.mp3" type="audio/mpeg">
+  <source src="audiofile.ogg" type="audio/ogg">
+  Audio not supported
+</audio><br>
+<p><strong>Controls:</strong> Shows media controls</p>
+<p><strong>Muted</strong></p>
+<p><strong>Autoplay</strong></p>
+<p><strong>Loop</strong></p>
