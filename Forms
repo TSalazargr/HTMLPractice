@@ -21,6 +21,7 @@
         <label for="breakfast2">Tea</label><br></li>
         <li><label for="breakfast3">Other</label>
         <input id="breakfast3" type="text" name="breakfast" value"other"></li>
+        <input type="submit">
     </ul>
 </form>
 <h2>Input types</h2>
