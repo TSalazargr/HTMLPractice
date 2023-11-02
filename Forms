@@ -1,3 +1,4 @@
+<h1>Form practice</h1>
 <form>
     <label for="t1">Email</label>
     <input id="t1" type="text" name="email"><br>
@@ -11,7 +12,7 @@
 
 ⭐ The value attribute is used to tell the database what to store
 -->
-<p>What do you have for breakfast?</p>
+<h2>What do you have for breakfast?</h2>
 <form>
     <ul>
         <li><input id="breakfast1" type="checkbox" name="breakfast" value="coffee">
@@ -21,4 +22,29 @@
         <li><label for="breakfast3">Other</label>
         <input id="breakfast3" type="text" name="breakfast" value"other"></li>
     </ul>
+</form>
+<h2>Input types</h2>
+<form>
+    <label for="button">Button </label><input type="button" id="button"><br>
+    <label for="checkbox">Checkbox </label><input type="checkbox" id="checkbox"><br>
+    <label for="color">Color </label><input type="color" id="color"><br>
+    <label for="date">Date </label><input type="date" id="date"><br>
+    <label for="datetime-local">Date time local </label><input type="datetime-local" id="datetime-local"><br>
+    <label for="email">Email </label><input type="email" id="email"><br>
+    <label for="file">File </label><input type="file" id="file"><br>
+    <label for="hidden">Hidden </label><input type="hidden" id="hidden"><br>
+    <label for="image">Image </label><input type="image" id="image" src="https://www.cameraegg.org/wp-content/uploads/2013/03/Canon-EOS-100D-Rebel-SL1-Sample-Image-1024x682.jpg" width="100"><br>
+    <label for="month">Month </label><input type="month" id="month"><br>
+    <label for="number">Number </label><input type="number" id="number"><br>
+    <label for="password">Password </label><input type="password" id="password"><br>
+    <label for="radio">Radio </label><input type="radio" id="radio"><br>
+    <label for="range">Range </label><input type="range" id="range"><br>
+    <label for="reset">Reset </label><input type="reset" id="reset"><br>
+    <label for="search">Search </label><input type="search" id="search"><br>
+    <label for="submit">Submit </label><input type="submit" id="submit"><br>
+    <label for="tel">Telephone </label><input type="tel" id="tel"><br>
+    <label for="text">Text </label><input type="text" id="text"><br>
+    <label for="time">Time </label><input type="time" id="time"><br>
+    <label for="url">Url </label><input type="url"id="url"><br>
+    <label for="week">Week </label><input type="week" id="week"><br>
 </form>
