@@ -11,3 +11,14 @@
 
 ⭐ The value attribute is used to tell the database what to store
 -->
+<p>What do you have for breakfast?</p>
+<form>
+    <ul>
+        <li><input id="b1" type="checkbox" name="breakfast" value="coffee">
+        <label for="b1">Coffee</label><br></li>
+        <li><input id="b2" type="checkbox" name="breakfast" value="tea">
+        <label for="b2">Tea</label><br></li>
+        <li><label for="b3">Other</label>
+        <input id="b3" type="text" name="breakfast" value"other"></li>
+    </ul>
+</form>
