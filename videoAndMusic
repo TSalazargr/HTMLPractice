@@ -1,3 +1,4 @@
+<h1>Video and Sound</h1>
 <!--When different <source> options are included, the browser will choose the first one it supports.-->
 <!--You can display play/pause, volume and other video controls with the controls attribute.-->
 <video controls>
@@ -25,3 +26,10 @@
 <p><strong>Muted</strong></p>
 <p><strong>Autoplay</strong></p>
 <p><strong>Loop</strong></p>
+<h2>Video without sound</h2>
+<video autoplay muted>
+  <source src="videofile.mp4"
+    type="video/mp4">
+  <source src="videofile.ogg"
+    type="video/ogg">
+</video>
