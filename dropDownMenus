@@ -15,7 +15,6 @@
          <option value="g">Green</option>
          <option value="b" selected>Blue</option>
     </select>
-    <input type="submit>
 </form><br>
 <h2>Menu with Labels</h2>
 <form>
@@ -25,5 +24,4 @@
         <option value="meatb">Meatballs</option>
         <option value="other">Other</option>
     </select>
-    <input type="submit>
 </form>
