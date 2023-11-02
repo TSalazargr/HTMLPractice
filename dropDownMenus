@@ -1,1 +1,27 @@
-
+<h1>Drop Down Menus>
+<h2>Basic menu</h2>
+<form>
+    <select name="breakfast">
+        <option value="coffee">Coffee</option>
+        <option value="tea">Tea</option>
+        <option value="other">Other</option>
+    </select>
+</form>
+<h2>Menu with a default option</h2>
+<!--The selected attribute creates a drop-down menu with a pre-selected option. The pre-selected option will be displayed first.-->
+<form>
+    <select name="color">
+         <option value="r">Red</option>
+         <option value="g">Green</option>
+         <option value="b" selected>Blue</option>
+    </select>
+</form>
+<h2>Menu with Labels</h2>
+<form>
+    <label for="meal" name="meal">What's your favorite meal?</label>
+    <select id="meal" name="meal">
+        <option value="esp">Espaghetti</option>
+        <option value="meatb">Meatballs</option>
+        <option value="other">Other</option>
+    </select>
+</form>
