@@ -1,7 +1,7 @@
 <html>
-<head>
-<title>Landing Page</title>
-</head>
+<header>
+<titlea>Landing Page</title>
+</header>
 <body>
     <nav>
         <a href="test.html">Test</a>
