@@ -33,3 +33,4 @@
 <button style="background-color:blue; font-size:large; color:yellow">Blue button, big yellow text</button>
 <p>Note: text-align doesn't work with buttons</p>
 <p style="border:4px solid pink">Pink border</p>
+<button style="border:4px solid">Button with 4px border</button>
