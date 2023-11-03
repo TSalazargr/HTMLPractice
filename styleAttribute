@@ -34,3 +34,4 @@
 <p>Note: text-align doesn't work with buttons</p>
 <p style="border:4px solid pink">Pink border</p>
 <button style="border:4px solid">Button with 4px border</button>
+<p>You can add the same style to an entire paragraph, header, main, footer or div.</p>
