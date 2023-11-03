@@ -1,0 +1,35 @@
+<h1 style="color:blue">The Style Attribute</a>
+<p>The style attribute can make your life a whole lot easier when it comes to formatting. You can customize multiple properties at the same time. Just separate each property:value pair with a semicolon (;).</p>
+<p>Attributes:</p>
+<ul>
+  <li>color:PLACEOVER</li>
+  <li>text-align:CENTER/RIGHT/LEFT</li>
+  <li>font-size:LARGE/SMALL</li>
+  <li>background-color:PLACEOVER</li>
+  <li>border:[NUMBER]px BORDER-STYLE COLOR</li>
+    <ul>
+      <li>border-width:[NUMBER] px</li>
+      <li>border-style:[solid/dotted]</li>
+        <ul>
+          <li style="border:dotted">dotted</li>
+          <li style="border:dashed">dashed</li>
+          <li style="border:solid">solid</li>
+          <li style="border:double">double</li>
+          <li style="border:groove">groove</li>
+          <li style="border:ridge">ridge</li>
+          <li style="border:inset">inset</li>
+          <li style="border:outset">outset</li>
+          <li style="border:none">none</li>
+          <li style="border:hidden">hidden</li>
+        </ul>
+      <li>border-color:COLOR</li>
+      <li>NoteThe only required border subproperty is border-style. If the width is not specified the default value will be “medium”. If color is not specified, the color of the text will be applied to the border.</li>
+    </ul>
+</ul>
+<p>The syntax for adding multiple styles is: [style:"[one; two; three; n]"]</p>
+
+<p>Examples:</p>
+<p style="color:red; text-align:left; font-size:small;>Red, left-aligned, small</p>
+<button style="background-color:blue; font-size:large; color:yellow">Blue button, big yellow text</button>
+<p>Note: text-align doesn't work with buttons</p>
+<p style="border:4px solid pink">Pink border</p>
