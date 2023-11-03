@@ -1,0 +1,32 @@
+<p>Every HTML element is either inline or block. This is one of the most important things for web designers and developers. Let’s take a look!</p>
+<p>Block-level elements always start on a new line. Inline elements don't start on a new line.</p>
+<ul>
+  <li>Block-level elements</li>
+    <ul>
+      <li>Always start on a new line</li>
+      <li>Block-level elements take up the full width available.</li>
+      <li>Can contain inline elements nested inside them</li>
+      <li>Don't need a br tag to start on a new line</li>
+      <li>always start on (and end with) a new line</li>
+      <li>Examples:</li>
+        <ul>
+          <li>p</li>
+          <li>h1, h2, h3, h4, h5, h6</li>
+          <li>li, ol, ul</li>
+        </ul>
+    </ul>
+  <li>Inline elements</li>
+    <ul>
+      <li>Don't start on a new line/li>
+      <li>Inline elements only take up as much width as necessary.</li>
+      <li>Need a br tag to start on a new line</li>
+      <li>elements don’t start on a new line</li>
+        <ul>
+          <li>format tags (b, i, i)</li>
+          <li>button</li>
+          <li>a (links)</li>
+          <li>p</li>
+          <li>input and labels</li>
+        </ul>
+    </ul>
+</ul>
