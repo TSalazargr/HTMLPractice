@@ -23,7 +23,7 @@
           <li style="border:hidden">hidden</li>
         </ul>
       <li>border-color:COLOR</li>
-      <li>NoteThe only required border subproperty is border-style. If the width is not specified the default value will be “medium”. If color is not specified, the color of the text will be applied to the border.</li>
+      <li>Note: The only required border subproperty is border-style. If the width is not specified the default value will be “medium”. If color is not specified, the color of the text will be applied to the border.</li>
     </ul>
 </ul>
 <p>The syntax for adding multiple styles is: [style:"[one; two; three; n]"]</p>
