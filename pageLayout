@@ -15,13 +15,21 @@
   </header>
   <main>
     <article>
+      <h2>Article tag</h2>
+      <p><em>article</em> represents an independent, self-contained piece of content. An article is content that would make sense on its own.</p>
+      <ul>
+        <li>article represents a self-contained, independent piece of content.</li>
+        <li>section is used to divide content into parts</li>
+        <li>aside is used for secondary, additional or somehow related content</li>
+      <ul>
     </article>
     <section>
       <h2>Section tag</h2>
-      <p><section> is a semantic tag. It usually includes a heading.</p>
+      <p><em>section</em> is a semantic tag. It usually includes a heading. section can be used to separate each chapter, news item, author bio, etc.</p>
     </section>
     <aside>
-       <p>The <em>aside</em> HTML element represents a portion of a document whose content is only indirectly related to the document's main content.</p>
+      <h2>Aside tag</h2>
+       <p>The <em>aside</em> HTML element represents a portion of a document whose content is only indirectly related to the document's main content. It's used for secondary, additional or somehow related content.</p>
      <aside>
   </main>
   <footer>
