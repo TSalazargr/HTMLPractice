@@ -1,0 +1,84 @@
+<table>
+  <tr> 
+    <td>Cell1</td>
+    <td>Cell2</td>
+  </tr>
+  <tr> 
+    <td>Cell3</td>
+    <td>Cell4</td>
+  </tr>
+</table>
+<p>Rows (tr) are nested inside tables (table) and cells (td for table data) are nested inside rows.<br>
+td elements within the same row are displayed on the same line, one after the other: they're inline elements.</p>
+<h2>Borders</h2>
+<p>Borders can be added to tables, rows and cells with the style attribute.</p>
+<table style="border:solid">
+<!--adding style="border:solid" to the table tag only adds an outer border-->
+  <tr> 
+    <td style="border:solid">Cell1</td>
+<!--each individual cell has to have a style="border:solid" for it to have a border-->
+    <td>Cell2</td>
+  </tr>
+  <tr> 
+    <td>Cell3</td>
+    <td>Cell4</td>
+  </tr>
+</table>
+<h2>Table headers</h2>
+<p>Tables usually include headers. A header is a special row at the top of the table used to label each column.<br>
+
+You can create header cells with the</p>
+<h3>Examples</h3>
+<table>
+  <tr>
+    <th>Name</th><th>Age</th>
+  </tr>
+  <tr>
+    <td>James</td>
+    <td>21</td>
+  </tr>
+  <tr>
+    <td>Anna</td>
+    <td>34</td>
+  </tr>
+<table>
+<h3>Colspan and rowspan: Merging cells</h3>
+<p>You can make cells that take up multiple rows and/or columns, using the attributes colspan and rowspan. This is called merging cells.<br>
+
+<em>colspan</em> is for the number of columns a cell should span.<br>
+
+<em>rowspan</em> is for the number of rows a cell should span.</p>
+<table>
+  <tr>
+    <th>Month</th>
+    <th>Budget($)</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>50000</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>40000</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sum: 90000</td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <th>Month</th>
+    <th>Budget($)</th>
+    <th>Savings($)</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>500</td>
+    <td rowspan="2">150</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>400</td>
+  </tr>
+</table>
+
