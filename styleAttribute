@@ -1,4 +1,4 @@
-<h1 style="color:blue">The Style Attribute</a>
+<h1 style="color:blue">The Style Attribute</h1>
 <p>The style attribute can make your life a whole lot easier when it comes to formatting. You can customize multiple properties at the same time. Just separate each property:value pair with a semicolon (;).</p>
 <p>Attributes:</p>
 <ul>
@@ -21,7 +21,7 @@
           <li style="border:outset">outset</li>
           <li style="border:none">none</li>
           <li style="border:hidden">hidden</li>
-          <li style="border-radius: 5px">border-radius: 5px</li>
+          <li style="border:solid; border-radius: 5px">border-radius: 5px</li>
         </ul>
       <li>border-color:COLOR</li>
       <li>Note: The only required border subproperty is border-style. If the width is not specified the default value will be “medium”. If color is not specified, the color of the text will be applied to the border.</li>
