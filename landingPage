@@ -1,10 +1,42 @@
 <html>
-<head>
-    <title>Landing Page</title>
-</head>
-<body>
-    <nav>
-        <a href="test.html">Test</a>
-    </nav>
-</body>
-</html>
+    <head>
+        <title>Landing Page</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="ReturnToTop">Teresa's Landing Page</h1>
+            <img src=https://blob.sololearn.com/courses/snp.png>
+        </header>
+        <main>
+           <p>This is a <em>landing page</em> to practice.</p>
+           <h2>Why a Landing Page?</h2>
+            <p>Landing pages are good for:</p>
+            <ul>
+               <li>Marketing goods of services</li>
+               <li>Showcasing your skills</li>
+               <li>Practicing your coding</li>
+               <li>Trying new things</li>
+               <li>Creating content</li>
+            </ul>
+        <h2>Contact me</h2>
+            <form>
+                <label for="nameContact">Name:</label>
+                <input id="nameContact" type="Text" name="nameContactForm"><br>
+                <label for="emailContact">Email:</label>
+                <input id="emailContact" type="email" name="emailContactForm"><br>
+                <label id="contactContact">Would you like to be contacted?</label>
+                <select id="contactContact">
+                    <option value="yesContactForm">Yes</option>
+                    <option value="noContactForm">No</option>
+                <select><br>
+                <label for="messageContact">Message:</label><br>
+                <textarea id="messageContact" rows = "5" cols = "60" name = "descriptionContactForm">
+                Enter details here...
+                </textarea><br>
+                <input type="submit">
+            </form>
+        </main>
+        <footer>
+            <a href="#ReturnToTop">Return to the top</a>
+        </footer>
+    </body>
