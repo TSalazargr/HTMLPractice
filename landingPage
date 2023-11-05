@@ -33,10 +33,10 @@
                 <textarea id="messageContact" rows = "5" cols = "60" name = "descriptionContactForm">
                 Enter details here...
                 </textarea><br>
-                <input id="submitForm" type="submit" for="submitForm" style="background-color:#ffca3a; border:none; border-radius: 5px">
+                <input id="submitForm" type="submit" for="submitForm" style="background-color:#ffca3a; border:none; border-radius: 5px" onclick="alert('¡Enviado!')">
             </form>
         </main>
         <footer style="background-color:#ffca3a ; text-align:center">
-            <a href="#ReturnToTop">Return to the top.</a>
+            <a href="#ReturnToTop">Return to the top</a>
         </footer>
     </body>
