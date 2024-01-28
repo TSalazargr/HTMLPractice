@@ -69,5 +69,26 @@
             <option value="broccoli">Broccoli</option>
     </select>
 </form>
+
+<h2>Sending input to server and the 'name' attribute</h2>
+
+<p>In HTML, the name attribute inside the <input> tag is used to identify the form data when the form is submitted to the server. 
+    The name attribute provides a name for the input field, and this name is used as the key when sending the form data to the server.</p>
+
+<p>When a user fills out a form and submits it, the browser sends the form data to the server as a series of key-value pairs. 
+    The name attribute specifies the name of the key, and the user's input is the corresponding value.</p>
+
+<p>Example:</p>
+    <form>
+        <label for="nameContact">Name:</label>
+        <input id="nameContact" type="Text" name="nameContactForm" required><br>
+        <label for="emailContact">Email:</label>
+        <input id="emailContact" type="email" name="emailContactForm" required><br>
+        <label for="messageContact" required>Message:</label><br>
+        <textarea id="messageContact" rows = "5" cols = "60" name = "descriptionContactForm">
+            Enter details here...
+        </textarea><br>
+        <input id="submitForm" type="submit" for="submitForm" style="background-color:#ffca3a; border:none; border-radius: 5px" onclick="alert('Sent!')">
+    </form>
 </body>
 </html>    
